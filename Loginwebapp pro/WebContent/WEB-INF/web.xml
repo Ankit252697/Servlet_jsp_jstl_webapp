@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>LoginDemoPro</display-name>
+  <servlet>
+  <servlet-name>abc</servlet-name>
+  <servlet-class>JavaConn.Login1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>abc</servlet-name>
+  <url-pattern>/aaa</url-pattern>
+  </servlet-mapping>
+   <servlet>
+  <servlet-name>asa</servlet-name>
+  <servlet-class>JavaConn.Registration</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>asa</servlet-name>
+  <url-pattern>/sss</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  <servlet-name>fff</servlet-name>
+  <servlet-class>JavaConn.ChangePass</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>fff</servlet-name>
+  <url-pattern>/ddd</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  <servlet-name>hhh</servlet-name>
+  <servlet-class>JavaConn.Show</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>hhh</servlet-name>
+  <url-pattern>/kkk</url-pattern>
+  </servlet-mapping>
+</web-app>
